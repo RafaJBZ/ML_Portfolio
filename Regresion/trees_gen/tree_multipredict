@@ -1,0 +1,29 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="X[1] <= 2200.0\nsquared_error = 43.25\nsamples = 8\nvalue = 80.5"] ;
+1 [label="X[0] <= 6.0\nsquared_error = 15.102\nsamples = 7\nvalue = 78.429"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="X[1] <= 1550.0\nsquared_error = 3.806\nsamples = 6\nvalue = 79.833"] ;
+1 -> 2 ;
+3 [label="X[0] <= 4.5\nsquared_error = 0.25\nsamples = 2\nvalue = 77.5"] ;
+2 -> 3 ;
+4 [label="squared_error = 0.0\nsamples = 1\nvalue = 78.0"] ;
+3 -> 4 ;
+5 [label="squared_error = 0.0\nsamples = 1\nvalue = 77.0"] ;
+3 -> 5 ;
+6 [label="X[0] <= 2.75\nsquared_error = 1.5\nsamples = 4\nvalue = 81.0"] ;
+2 -> 6 ;
+7 [label="squared_error = 0.0\nsamples = 1\nvalue = 83.0"] ;
+6 -> 7 ;
+8 [label="X[1] <= 1725.0\nsquared_error = 0.222\nsamples = 3\nvalue = 80.333"] ;
+6 -> 8 ;
+9 [label="squared_error = 0.0\nsamples = 2\nvalue = 80.0"] ;
+8 -> 9 ;
+10 [label="squared_error = 0.0\nsamples = 1\nvalue = 81.0"] ;
+8 -> 10 ;
+11 [label="squared_error = 0.0\nsamples = 1\nvalue = 70.0"] ;
+1 -> 11 ;
+12 [label="squared_error = 0.0\nsamples = 1\nvalue = 95.0"] ;
+0 -> 12 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
