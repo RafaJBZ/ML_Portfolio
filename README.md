@@ -1,37 +1,37 @@
-# ML_Portfolio
-This project contains a collection of Jupyter Notebooks organized into three folders: "Procesamiento", "Regresión", and "Clasificación". These notebooks contain codes related to data processing, regression, and classification.
+# Machine Learning Portfolio Showcase
 
-## Procesamiento
-In the "Procesamiento" folder, you will find notebooks such as:
+Explore a curated collection of Jupyter Notebooks showcasing expertise in data processing, regression, and classification. Dive into the intricacies of machine learning through the lenses of preprocessing, regression modeling, and classification tasks.
 
-* ExploracionDatos.ipynb
-* FeatureSelection.ipynb
-* PCA_PLS-checkpoint.ipynb
-* TestTrainSplit.ipynb    
+## Procesamiento (Processing)
 
-These notebooks are used for data exploration, feature selection, dimensionality reduction, and splitting data into training and testing sets.
+In the "Procesamiento" folder, you'll discover notebooks designed for various preprocessing tasks:
 
-## Regresión
-In the "Regresión" folder, there are notebooks such as:
+- **ExploracionDatos.ipynb:** Explores and analyzes the dataset, gaining insights into its structure and characteristics.
+- **FeatureSelection.ipynb:** Implements feature selection techniques to identify and retain the most relevant features for modeling.
+- **PCA_PLS-checkpoint.ipynb:** Applies Principal Component Analysis (PCA) and Partial Least Squares (PLS) for dimensionality reduction.
+- **TestTrainSplit.ipynb:** Divides the dataset into training and testing sets, a crucial step in model evaluation.
 
-* LinearRegression.ipynb
-* NeuralNetworks.ipynb
-* Tree_Regression.ipynb
-* RandomForest.ipynb
-* SVR.ipynb
-* comparar_modelos.ipynb
-* XGBoost_regresion.ipynb     
+## Regresión (Regression)
 
-These notebooks contain code for linear regression, neural networks, tree regression, random forest, support vector regression, and gradient boosting regression.
+The "Regresión" folder houses notebooks focusing on regression tasks:
 
-## Clasificación
-Lastly, the "Clasificación" folder contains notebooks such as:
+- **LinearRegression.ipynb:** Implements linear regression models for predicting continuous outcomes.
+- **NeuralNetworks.ipynb:** Explores the use of neural networks for regression tasks.
+- **Tree_Regression.ipynb:** Applies tree-based regression models.
+- **RandomForest.ipynb:** Utilizes Random Forest regression for robust predictive modeling.
+- **SVR.ipynb:** Implements Support Vector Regression for capturing complex relationships.
+- **comparar_modelos.ipynb:** Compares various regression models for performance evaluation.
+- **XGBoost_regresion.ipynb:** Explores the power of XGBoost for regression tasks.
 
-* Logistic.ipynb
-* NN.ipynb
-* SVC.ipynb
-* Trees.ipynb
-* RandomForest_clas.ipynb
-* comparar_modelos_clasif.ipynb     
+## Clasificación (Classification)
 
-These notebooks are used for classification tasks and contain codes for logistic regression, neural networks, support vector classification, decision trees, and random forest classification.
+Finally, in the "Clasificación" folder, notebooks are dedicated to classification tasks:
+
+- **Logistic.ipynb:** Implements logistic regression for binary classification.
+- **NN.ipynb:** Explores neural networks for classification tasks.
+- **SVC.ipynb:** Implements Support Vector Classification for non-linear classification.
+- **Trees.ipynb:** Applies decision trees for classification.
+- **RandomForest_clas.ipynb:** Utilizes Random Forest for robust classification.
+- **comparar_modelos_clasif.ipynb:** Compares the performance of various classification models.
+
+Feel free to explore the notebooks to gain insights into my machine learning journey and the diverse range of tasks I've tackled.
